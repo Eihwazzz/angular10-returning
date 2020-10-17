@@ -1,13 +1,28 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoginComponent } from './login/login.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
 
 
 
 @NgModule({
-  declarations: [LoginComponent],
+  declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatButtonModule,
+    FormsModule
   ]
 })
 export class AuthModule { }

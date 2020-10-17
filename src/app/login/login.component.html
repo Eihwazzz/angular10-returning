@@ -1,0 +1,21 @@
+<div fxLayout="column" fxLayoutAlign="center center">
+    <p>
+        <mat-form-field appearance="legacy">
+            <mat-label>Username</mat-label>
+            <input matInput placeholder="" [(ngModel)]="loginData.username">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Your username</mat-hint>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="legacy">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="" [(ngModel)]="loginData.password" type="password">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Your password</mat-hint>
+        </mat-form-field>
+    </p>
+    <p>
+        <button mat-raised-button color="primary" (click)="login()">Login</button>
+    </p>
+</div>
