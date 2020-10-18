@@ -1,0 +1,9 @@
+.loginContainer {
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.loginForm {
+    padding: 10vh;
+    min-height: 50vh;
+    border: 4px double white;
+}
